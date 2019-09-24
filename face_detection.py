@@ -1,5 +1,6 @@
 import cv2, glob
 
+# store all the jpg image in the path
 gimage = glob.glob("*.jpg")
 
 detect = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
